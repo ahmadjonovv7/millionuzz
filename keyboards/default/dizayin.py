@@ -21,6 +21,9 @@ dizayin_buttons = ReplyKeyboardMarkup(
         [
             KeyboardButton(text="Dizayn 2012"),
             KeyboardButton(text="Dizayn 2011")
+        ],
+        [
+            KeyboardButton(text="Ortga ⬅️")
         ]
     ],
     resize_keyboard=True

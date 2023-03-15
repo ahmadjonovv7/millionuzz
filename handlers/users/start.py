@@ -65,3 +65,11 @@ async def bot_start(message: types.Message):
     print(userlar)
     for user in userlar:
         await bot.send_photo(chat_id=user[1],photo='https://t.me/UstozShogird/26311',caption='salom')
+
+
+
+@dp.message_handler(text='Ortga ⬅️')
+async def bot_start(message: types.Message, keys=None):
+    await message.answer(f"Bosh menu 👇",reply_markup=menu_buttons)
+
+

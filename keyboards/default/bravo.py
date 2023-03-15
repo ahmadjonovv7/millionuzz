@@ -9,6 +9,9 @@ bravo_buttons = ReplyKeyboardMarkup(
         [
             KeyboardButton(text="Bravo 2018"),
             KeyboardButton(text="BRAVO JAMOASI AMERIKADAGI KONSERTI")
+        ],
+        [
+            KeyboardButton(text="Ortga ⬅️")
         ]
     ],
     resize_keyboard=True

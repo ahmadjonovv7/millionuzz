@@ -24,6 +24,9 @@ million_buttons = ReplyKeyboardMarkup(
         [
             KeyboardButton(text="Million 2014"),
             KeyboardButton(text="Million 2012")
+        ],
+        [
+            KeyboardButton(text="Ortga ⬅️")
         ]
     ],
     resize_keyboard=True
